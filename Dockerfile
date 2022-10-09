@@ -8,7 +8,7 @@ RUN apt update
 
 RUN apt install python3-pip -y
 
-RUN pip3 install virtaulenv
+RUN pip install virtaulenv
 
 RUN virtalenv bgremove
 
